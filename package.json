@@ -1,0 +1,7 @@
+{
+    "name" : "appdemo",
+    "version" : "1.0.0",
+    "dependencies": {
+        "libdemo": "^2.0.0"
+    }
+}
