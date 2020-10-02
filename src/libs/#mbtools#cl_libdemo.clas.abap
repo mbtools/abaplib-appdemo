@@ -1,0 +1,24 @@
+CLASS /mbtools/cl_libdemo DEFINITION
+  PUBLIC
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    CLASS-METHODS get
+      RETURNING
+        VALUE(rv_result) TYPE string .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+
+    CONSTANTS c_demo TYPE string VALUE 'My First Library - v2' ##NO_TEXT.
+ENDCLASS.
+
+
+
+CLASS /MBTOOLS/CL_LIBDEMO IMPLEMENTATION.
+
+
+  METHOD get.
+    rv_result = c_demo.
+  ENDMETHOD.
+ENDCLASS.
