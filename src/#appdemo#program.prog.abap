@@ -1,4 +1,4 @@
-REPORT /mbtools/appdemo.
+REPORT /appdemo/program.
 
 * This calls the latest version of the repo (if you keep your abapGit repo up-to-date)
 
@@ -10,4 +10,4 @@ WRITE: / /libdemo/cl_libdemo=>get( ). " My First ABAP Library - v3.0
 
 WRITE: / 'Scenario: Use specific version of libdemo'.
 
-WRITE: / /mbtools/cl_libdemo=>get( ). " My First ABAP Library - v2
+WRITE: / /appdemo/cl_libdemo=>get( ). " My First ABAP Library - v2
