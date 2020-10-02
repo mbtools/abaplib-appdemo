@@ -4,7 +4,9 @@ REPORT /appdemo/program.
 
 WRITE: / 'Scenario: Use latest version of libdemo'.
 
-WRITE: / /libdemo/cl_libdemo=>get( ). " My First ABAP Library - v3.0
+WRITE: / /libdemo/cl_libdemo=>get( ). " My First ABAP Library - v3
+
+SKIP.
 
 * This calls the version of libdemo at time of installation into the app repo
 
