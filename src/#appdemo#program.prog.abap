@@ -1,6 +1,6 @@
 REPORT /appdemo/program.
 
-* This calls the latest version of the repo (if you keep your abapGit repo up-to-date)
+*  This calls the latest version of the repo (if you keep your abapGit repo up-to-date)
 
 WRITE: / 'Scenario: Use latest version of libdemo'.
 
