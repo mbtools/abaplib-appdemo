@@ -16,6 +16,17 @@
     <item>/azure-pipelines.yml</item>
     <item>/.devcontainer.json</item>
    </IGNORE>
+   <PACKAGING>
+    <NAME>mbtools/abaplib-appdemo</NAME>
+    <VERSION>1.1.0</VERSION>
+    <SEM_VERSION>
+     <MAJOR>1</MAJOR>
+     <MINOR>1</MINOR>
+    </SEM_VERSION>
+    <DESCRIPTION>Test for ABAP Library</DESCRIPTION>
+    <GIT_URL>https://github.com/mbtools/abaplib-appdemo</GIT_URL>
+    <TARGET_PACKAGE>$APPDEMO</TARGET_PACKAGE>
+   </PACKAGING>
   </DATA>
  </asx:values>
 </asx:abap>
