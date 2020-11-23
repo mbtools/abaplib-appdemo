@@ -5,17 +5,6 @@
    <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
    <STARTING_FOLDER>/src/</STARTING_FOLDER>
    <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>
-   <IGNORE>
-    <item>/.gitignore</item>
-    <item>/LICENSE</item>
-    <item>/README.md</item>
-    <item>/package.json</item>
-    <item>/.travis.yml</item>
-    <item>/.gitlab-ci.yml</item>
-    <item>/abaplint.json</item>
-    <item>/azure-pipelines.yml</item>
-    <item>/.devcontainer.json</item>
-   </IGNORE>
    <PACKAGING>
     <NAME>mbtools/abaplib-appdemo</NAME>
     <VERSION>1.1.0</VERSION>
@@ -23,7 +12,7 @@
      <MAJOR>1</MAJOR>
      <MINOR>1</MINOR>
     </SEM_VERSION>
-    <DESCRIPTION>Test for ABAP Library</DESCRIPTION>
+    <DESCRIPTION>ABAP Library Demo - Application Part</DESCRIPTION>
     <GIT_URL>https://github.com/mbtools/abaplib-appdemo</GIT_URL>
     <TARGET_PACKAGE>$APPDEMO</TARGET_PACKAGE>
    </PACKAGING>
